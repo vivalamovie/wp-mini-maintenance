@@ -22,14 +22,14 @@ function maintenance_content() {
 	if ( !is_user_logged_in() ) {
 		$page = <<<EOT
 
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-<meta charset="UTF-8" />
-
-<title></title>
-<body></body>
-</html>
+			<!DOCTYPE html>
+			<html lang="en-US">
+			<head>
+			<meta charset="UTF-8" />
+			
+			<title></title>
+			<body></body>
+			</html>
 
 EOT;
 		die($page);
