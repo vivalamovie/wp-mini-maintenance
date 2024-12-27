@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: WP mini maintenance
-Plugin URI:
-Description: wp-mini-maintenance
+Plugin URI: https://github.com/vivalamovie/wp-mini-maintenance
+Description: The smallest WordPress maintenance plugin
 Author: Christian Pier
 Version: 1.0
 Author URI: http://vlmsrv.com
-License: free to use
+License: https://creativecommons.org/publicdomain/zero/1.0/
 */
 
 if(!function_exists('maintenance_head')):
